@@ -12,8 +12,10 @@
 
 function topher_get_wptv_data() {
 
+	$feed = 'ENTER FEED URL HERE';
+
 	// Get a SimplePie feed object from the specified feed source.
-	$rss = fetch_feed( 'https://wordpress.tv/speakers/topher-derosia/feed/' );
+	$rss = fetch_feed( esc_url( $feed ) );
 	 
 	$maxitems = 0;
 	 

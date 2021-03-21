@@ -17,6 +17,7 @@ Fetches an RSS feed from WordPress.tv and injects items into the Post type. The 
 * Feed URL
 * Post type (if you want to inject into a custom post type)
 * Category IDs
+* Number of items you want to import
 
 Please read Usage for how to make it do an import.
 
